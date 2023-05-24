@@ -1,0 +1,17 @@
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\bin\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.deps.json
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\bin\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\bin\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.pdb
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\bin\Debug\net7.0-windows10.0.19041.0\1.DataAccess.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\bin\Debug\net7.0-windows10.0.19041.0\4.Entities.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\bin\Debug\net7.0-windows10.0.19041.0\1.DataAccess.pdb
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\bin\Debug\net7.0-windows10.0.19041.0\4.Entities.pdb
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.AssemblyInfo.cs
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.csproj.CopyComplete
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\refint\2.BusinessLogic.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\2.BusinessLogic.pdb
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\obj\Debug\net7.0-windows10.0.19041.0\ref\2.BusinessLogic.dll

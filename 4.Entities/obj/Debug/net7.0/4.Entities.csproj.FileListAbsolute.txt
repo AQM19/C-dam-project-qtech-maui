@@ -1,0 +1,12 @@
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\bin\Debug\net7.0\4.Entities.deps.json
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\bin\Debug\net7.0\4.Entities.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\bin\Debug\net7.0\4.Entities.pdb
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\obj\Debug\net7.0\4.Entities.csproj.AssemblyReference.cache
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\obj\Debug\net7.0\4.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\obj\Debug\net7.0\4.Entities.AssemblyInfoInputs.cache
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\obj\Debug\net7.0\4.Entities.AssemblyInfo.cs
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\obj\Debug\net7.0\4.Entities.csproj.CoreCompileInputs.cache
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\obj\Debug\net7.0\4.Entities.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\obj\Debug\net7.0\refint\4.Entities.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\obj\Debug\net7.0\4.Entities.pdb
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\obj\Debug\net7.0\ref\4.Entities.dll
