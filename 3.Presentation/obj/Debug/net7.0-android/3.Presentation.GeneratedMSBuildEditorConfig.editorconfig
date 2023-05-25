@@ -26,23 +26,41 @@ build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.AppShell.x
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/LoginPage.xaml]
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/CommonPages/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.LoginPage.xaml
-build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
-build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.CommonPages.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CommonPages\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CommonPages\LoginPage.xaml
 
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/MainPage.xaml]
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/CommonPages/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.CommonPages.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CommonPages\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CommonPages\RegisterPage.xaml
 
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/RegisterPage.xaml]
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/InPages/BuscadorPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.RegisterPage.xaml
-build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
-build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.InPages.BuscadorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = InPages\BuscadorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = InPages\BuscadorPage.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/InPages/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.InPages.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = InPages\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = InPages\DashboardPage.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/InPages/NotificacionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.InPages.NotificacionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = InPages\NotificacionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = InPages\NotificacionPage.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/InPages/PerfilPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.InPages.PerfilPage.xaml
+build_metadata.AdditionalFiles.TargetPath = InPages\PerfilPage.xaml
+build_metadata.AdditionalFiles.RelativePath = InPages\PerfilPage.xaml
 
 [C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

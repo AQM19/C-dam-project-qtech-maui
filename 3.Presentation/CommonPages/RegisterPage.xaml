@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_3.Presentation.RegisterPage"
+             Title="RegisterPage"
+             BackgroundImageSource="app_background.jpeg">
+    <VerticalStackLayout
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Spacing="25"
+        Padding="30.0"
+        >
+
+        <Image 
+            Source="logo_qtech.png" 
+            HeightRequest="100" 
+            HorizontalOptions="Center"/>
+
+        <HorizontalStackLayout
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Spacing="30"
+            Padding="30">
+
+            <Entry
+                Placeholder="Username"
+                x:Name="UsernameEntryRegister"
+                Keyboard="Text"
+                WidthRequest="150"
+                />
+
+            <Entry
+                Placeholder="Email"
+                x:Name="EmailEntryRegister"
+                Keyboard="Text"
+                WidthRequest="150"/>
+
+        </HorizontalStackLayout>
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

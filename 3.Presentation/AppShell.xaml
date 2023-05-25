@@ -4,11 +4,44 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:_3.Presentation"
-    Shell.FlyoutBehavior="Flyout">
+    Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
+        Title="Login"
         ContentTemplate="{DataTemplate local:LoginPage}"
-        Route="LoginPage" />
+        Route="LoginPage"/>
+
+    <ShellContent
+        Title="Register"
+        ContentTemplate="{DataTemplate local:RegisterPage}"
+        Route="RegisterPage"/>
+
+    <TabBar>
+        
+        <ShellContent
+            Title="Dashboard"
+            ContentTemplate="{DataTemplate local:DashboardPage}"
+            Route="DashboardPage"
+            Icon="casa.png"/>
+
+        <ShellContent 
+            Title="Buscador" 
+            ContentTemplate="{DataTemplate local:BuscadorPage}"
+            Route="BuscadorPage"
+            Icon="lupa.png"/>
+
+        <ShellContent 
+            Title="Notificaciones" 
+            ContentTemplate="{DataTemplate local:NotificacionPage}"
+            Route="NotificacionPage"
+            Icon="campana_off.png"/>
+
+        <ShellContent 
+            Title="Perfil" 
+            ContentTemplate="{DataTemplate local:PerfilPage}"
+            Route="PerfilPage"
+            Icon="usuario.png"/>
+
+    </TabBar>
 
 </Shell>

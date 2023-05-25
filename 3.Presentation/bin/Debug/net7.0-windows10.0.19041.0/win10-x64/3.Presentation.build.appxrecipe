@@ -889,9 +889,6 @@
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\login_green_background.scale-100.jpeg">
-      <PackagePath>login_green_background.scale-100.jpeg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_qtech.scale-100.png">
       <PackagePath>logo_qtech.scale-100.png</PackagePath>
     </AppxPackagedFile>

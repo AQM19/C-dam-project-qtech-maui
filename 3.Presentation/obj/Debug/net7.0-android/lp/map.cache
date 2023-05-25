@@ -1,3 +1,6 @@
+1.DataAccess.dll
+2.BusinessLogic.dll
+4.Entities.dll
 GoogleGson.dll
 Microsoft.Maui.Controls.Compatibility.dll
 Microsoft.Maui.Controls.dll
@@ -158,6 +161,3 @@ maui.aar
 Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.Crypto.Tink.Android.aar
-1.DataAccess.dll
-2.BusinessLogic.dll
-4.Entities.dll
