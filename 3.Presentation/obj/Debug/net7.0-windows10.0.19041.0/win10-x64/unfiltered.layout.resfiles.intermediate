@@ -47,6 +47,9 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
+campana_off.scale-100.png
+campana_on.scale-100.png
+casa.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
@@ -58,6 +61,8 @@ logo_qtech.scale-150.png
 logo_qtech.scale-200.png
 logo_qtech.scale-400.png
 logo_qtech_full.scale-100.png
+lupa.scale-100.png
+usuario.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png

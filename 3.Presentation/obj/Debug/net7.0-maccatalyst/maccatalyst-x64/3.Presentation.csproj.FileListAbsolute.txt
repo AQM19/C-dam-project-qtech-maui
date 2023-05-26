@@ -263,3 +263,9 @@ C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\3.Presentation.pdb
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\3.Presentation.genruntimeconfig.cache
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\3.Presentation.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\campana_off.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\campana_on.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\casa.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\lupa.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\usuario.png

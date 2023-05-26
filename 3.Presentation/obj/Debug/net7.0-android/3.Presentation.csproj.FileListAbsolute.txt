@@ -982,6 +982,18 @@ C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\lp\160\jl\files.cache
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\lp\161\jl\files.cache
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\logo_qtech.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\campana_off.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\campana_on.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\casa.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\lupa.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\usuario.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\Newtonsoft.Json.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\mscorlib.dll
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\System.Data.Common.dll
@@ -995,8 +1007,3 @@ C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\android\assets\System.Xml.dll
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\campana_off.png
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\campana_on.png
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\casa.png
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\lupa.png
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-android\resizetizer\r\drawable\usuario.png

@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using System.Reflection;
 
 namespace _3.Presentation
 {
@@ -15,9 +17,13 @@ namespace _3.Presentation
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-		builder.Logging.AddDebug();
-#endif
+            using var stream = Assembly.GetExecutingAssembly()
+                .GetManifestResourceStream("_3.Presentation.appsettings.json");
+            var config = new ConfigurationBuilder().AddJsonStream(stream).Build();
+
+            builder.Services.AddSingleton<IConfiguration>(config);
+
+            builder.Logging.AddDebug();
 
             return builder.Build();
         }
