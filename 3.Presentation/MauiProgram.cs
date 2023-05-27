@@ -17,11 +17,19 @@ namespace _3.Presentation
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            builder.Services.AddSingleton<LoginPage>();
+            builder.Services.AddSingleton<RegisterPage>();
+            builder.Services.AddSingleton<BuscadorPage>();
+            builder.Services.AddSingleton<DashboardPage>();
+            builder.Services.AddSingleton<NotificacionPage>();
+            builder.Services.AddSingleton<PerfilPage>();
+
+
             using var stream = Assembly.GetExecutingAssembly()
                 .GetManifestResourceStream("_3.Presentation.appsettings.json");
             var config = new ConfigurationBuilder().AddJsonStream(stream).Build();
 
-            builder.Services.AddSingleton<IConfiguration>(config);
+            App.Configuration = config;
 
             builder.Logging.AddDebug();
 

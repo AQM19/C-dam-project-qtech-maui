@@ -1,4 +1,6 @@
-﻿namespace _3.Presentation
+﻿using _4.Entities;
+
+namespace _3.Presentation
 {
     public partial class AppShell : Shell
     {
@@ -6,8 +8,8 @@
         {
             InitializeComponent();
 
-            Routing.RegisterRoute("LoginPage", typeof(LoginPage));
-            Routing.RegisterRoute("RegisterPage", typeof(RegisterPage));
+            Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
+            Routing.RegisterRoute(nameof(RegisterPage), typeof(RegisterPage));
         }
     }
 }

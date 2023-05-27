@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_3.Presentation.RegisterPage"
+             Title="RegisterPage"
+             BackgroundImageSource="app_background.jpeg">
+    
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20" Padding="30.0" WidthRequest="400">
+
+        <Image Source="main_icon.png" HeightRequest="100" HorizontalOptions="Center">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+            </Image.GestureRecognizers>
+        </Image>
+
+
+        <Label Text="Nombre de usuario"  VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Border StrokeShape="RoundRectangle 25" Padding="5">
+            <Entry Placeholder="Username" x:Name="UsernameEntryRegister" Keyboard="Text" Margin="25,0"/>
+        </Border>
+
+        <Label Text="Email"  VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Border StrokeShape="RoundRectangle 25" Padding="5">
+            <Entry Placeholder="Email" x:Name="EmailEntryRegister" Keyboard="Text" Margin="25,0"/>
+        </Border>
+
+        <Label Text="Contraseña"  VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Border StrokeShape="RoundRectangle 25" Padding="5">
+            <Entry Placeholder="*****" x:Name="PasswordEntryRegister" Keyboard="Text" IsPassword="True" Margin="25,0"/>
+        </Border>
+
+        <Button Text="Login" FontSize="Large" CornerRadius="25" WidthRequest="150" x:Name="BtnRegister" Clicked="BtnRegister_Clicked"/>
+        <Button Text="Registro" FontSize="12" TextColor="#3A7CA5" BackgroundColor="Transparent" x:Name="BtnLogin" Clicked="BtnLogin_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
