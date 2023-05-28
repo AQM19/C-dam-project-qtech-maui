@@ -4,21 +4,22 @@
              x:Class="_3.Presentation.DashboardPage"
              Title="DashboardPage">
     
-    <VerticalStackLayout 
-        VerticalOptions="Start" 
-        HorizontalOptions="Center">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Center">
 
-        <ListView x:Name="LvTerrarios" ItemsSource="{Binding Terrarios}">
+        <ListView x:Name="LvTerrarios" ItemsSource="{Binding Terrarios}" SelectionMode="Single" HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid>
+                        <Grid Padding="8">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-                            <Image Source="{Binding Foto}" Grid.Column="0" WidthRequest="75"/>
-                            <StackLayout Orientation="Vertical" Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Source="{Binding Foto}" Grid.Column="0" Grid.Row="0" WidthRequest="100" Margin="0,5"/>
+                            <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="0">
                                 <Label Text="{Binding Nombre}"/>
                                 <Label Text="{Binding Descripcion}"/>
                                 <Label Text="{Binding FechaCreacion}"/>
