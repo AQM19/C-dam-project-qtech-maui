@@ -14,6 +14,30 @@ build_property.IncludeAllContentForSelfExtract =
 build_property.RootNamespace = _3.Presentation
 build_property.ProjectDir = C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\
 
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/BuscadorPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.BuscadorPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = 2.View\BuscadorPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = 2.View\BuscadorPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/DashboardPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.DashboardPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = 2.View\DashboardPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = 2.View\DashboardPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/NotificacionPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.NotificacionPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = 2.View\NotificacionPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = 2.View\NotificacionPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/PerfilPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.PerfilPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = 2.View\PerfilPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = 2.View\PerfilPageView.xaml
+
 [C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.App.xaml
@@ -25,30 +49,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/LoginPost/BuscadorPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.LoginPost.BuscadorPage.xaml
-build_metadata.AdditionalFiles.TargetPath = LoginPost\BuscadorPage.xaml
-build_metadata.AdditionalFiles.RelativePath = LoginPost\BuscadorPage.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/LoginPost/DashboardPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.LoginPost.DashboardPage.xaml
-build_metadata.AdditionalFiles.TargetPath = LoginPost\DashboardPage.xaml
-build_metadata.AdditionalFiles.RelativePath = LoginPost\DashboardPage.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/LoginPost/NotificacionPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.LoginPost.NotificacionPage.xaml
-build_metadata.AdditionalFiles.TargetPath = LoginPost\NotificacionPage.xaml
-build_metadata.AdditionalFiles.RelativePath = LoginPost\NotificacionPage.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/LoginPost/PerfilPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.LoginPost.PerfilPage.xaml
-build_metadata.AdditionalFiles.TargetPath = LoginPost\PerfilPage.xaml
-build_metadata.AdditionalFiles.RelativePath = LoginPost\PerfilPage.xaml
 
 [C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/LoginPre/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

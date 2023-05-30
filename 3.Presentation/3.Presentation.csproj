@@ -68,6 +68,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Azure.Storage.Blobs" Version="12.16.0" />
+		<PackageReference Include="linq2db" Version="5.2.1" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
@@ -84,19 +85,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="LoginPost\BuscadorPage.xaml">
+	  <MauiXaml Update="2.View\BuscadorPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="LoginPost\DashboardPage.xaml">
+	  <MauiXaml Update="2.View\DashboardPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="LoginPre\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="LoginPost\NotificacionPage.xaml">
+	  <MauiXaml Update="2.View\NotificacionPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="LoginPost\PerfilPage.xaml">
+	  <MauiXaml Update="2.View\PerfilPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="LoginPre\RegisterPage.xaml">
@@ -106,7 +107,21 @@
 
 	<ItemGroup>
 	  <Folder Include="1.Model\" />
-	  <Folder Include="2.View\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="2.View\BuscadorPageView.xaml.cs">
+	    <DependentUpon>BuscadorPageView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="2.View\DashboardPageView.xaml.cs">
+	    <DependentUpon>DashboardPageView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="2.View\NotificacionPageView.xaml.cs">
+	    <DependentUpon>NotificacionPageView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="2.View\PerfilPageView.xaml.cs">
+	    <DependentUpon>PerfilPageView.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutException3PresentationHideInfoBar="True" XamarinHotReloadUnhandledDeviceException3PresentationHideInfoBar="True" /></VisualStudio></ProjectExtensions>

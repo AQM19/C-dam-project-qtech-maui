@@ -12,6 +12,7 @@ public class MonoPackageManager_Resources {
 		"Azure.Storage.Blobs.dll",
 		"Azure.Storage.Common.dll",
 		"GoogleGson.dll",
+		"linq2db.dll",
 		"Microsoft.Bcl.AsyncInterfaces.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",

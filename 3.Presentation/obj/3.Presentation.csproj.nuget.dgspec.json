@@ -1201,6 +1201,10 @@
               "target": "Package",
               "version": "[1.7.0.1, )",
               "autoReferenced": true
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             }
           },
           "imports": [
@@ -1280,6 +1284,10 @@
             "Microsoft.Toolkit.Mvvm": {
               "target": "Package",
               "version": "[7.1.2, )"
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             }
           },
           "imports": [
@@ -1359,6 +1367,10 @@
             "Microsoft.Toolkit.Mvvm": {
               "target": "Package",
               "version": "[7.1.2, )"
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             }
           },
           "imports": [
@@ -1455,6 +1467,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             }
           },
           "imports": [

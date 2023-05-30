@@ -14,19 +14,19 @@
     <MauiXaml Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="LoginPost\BuscadorPage.xaml">
+    <MauiXaml Update="2.View\BuscadorPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="LoginPost\DashboardPage.xaml">
+    <MauiXaml Update="2.View\DashboardPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="LoginPre\LoginPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="LoginPost\NotificacionPage.xaml">
+    <MauiXaml Update="2.View\NotificacionPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="LoginPost\PerfilPage.xaml">
+    <MauiXaml Update="2.View\PerfilPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">

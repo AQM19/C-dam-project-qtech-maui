@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DBPDqp7sncHES+/qTSAZKP3bJUhDp0+ahymdz8B+5PHr7Hn7CuaxjX2nBkG3/rk4v1P11nXrcAmzRht+xJmJ6A==",
+  "dgSpecHash": "jJSDXIKcXYXb2fGm1CFPV8nr9462F1e36dFdYkvYXiUI0nQA0w6XvxyB2iRZanWbBP6Oziz5GhIfCnBtgP5B9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\aaron\\OneDrive\\Escritorio\\PROJECTS\\QTECH_MAUI\\3.Presentation\\3.Presentation.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\aaron\\.nuget\\packages\\azure.storage.blobs\\12.16.0\\azure.storage.blobs.12.16.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\azure.storage.common\\12.15.0\\azure.storage.common.12.15.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
+    "C:\\Users\\aaron\\.nuget\\packages\\linq2db\\5.2.1\\linq2db.5.2.1.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\aaron\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
