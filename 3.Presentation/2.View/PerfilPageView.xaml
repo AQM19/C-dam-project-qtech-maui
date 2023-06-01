@@ -3,11 +3,70 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="_3.Presentation.PerfilPage"
              Title="PerfilPage">
-    
-    <VerticalStackLayout >
 
-        
-        
+    <VerticalStackLayout VerticalOptions="Fill" HorizontalOptions="Fill">
+
+        <Grid Padding="10" RowSpacing="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Image Source="{Binding FotoPerfil}" Grid.Column="0" Grid.Row="0"/>
+            <Label Text="{Binding NombreUsuario}" FontAutoScalingEnabled="True" FontSize="22" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center"/>
+        </Grid>
+
+        <Grid Padding="10" ColumnSpacing="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Entry Placeholder="Correo electrónico" Text="{Binding Email}" Grid.Column="0" Grid.Row="0"/>
+            <Button Text="Cambiar contraseña" Grid.Column="1" Grid.Row="0"/>
+
+            <Entry Placeholder="Nombre" Text="{Binding Nombre}" Grid.Column="0" Grid.Row="1"/>
+            <HorizontalStackLayout Grid.Column="1" Grid.Row="1">
+                <Entry Placeholder="Apellidos" Text="{Binding Apellido1}"/>
+                <Entry Placeholder="Apellidos" Text="{Binding Apellido2}"/>
+            </HorizontalStackLayout>
+
+            <Entry Placeholder="Telefono" Text="{Binding Telefono}" Grid.Column="0" Grid.Row="2"/>
+            <DatePicker Date="{Binding FechaNacimiento, StringFormat='dd/MM/yyyy'}" Grid.Column="1" Grid.Row="2"/>
+        </Grid>
+
+        <ListView x:Name="LvTerrarios" ItemsSource="{Binding Terrarios}" SelectionMode="Single" HasUnevenRows="True" ItemTapped="LvTerrarios_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="8" ColumnSpacing="20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Source="{Binding Foto}" Grid.Column="0" Grid.Row="0" WidthRequest="100" Margin="0,5"/>
+                            <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="0">
+                                <Label Text="{Binding Nombre}"/>
+                                <Label Text="{Binding Descripcion}"/>
+                                <Label Text="{Binding FechaCreacion, StringFormat='{0:dd/MM/yyyy}'}"/>
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
     </VerticalStackLayout>
-    
+
 </ContentPage>

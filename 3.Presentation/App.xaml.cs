@@ -8,6 +8,7 @@ namespace _3.Presentation
 
         public static IConfiguration Configuration { get; set; }
         public static Usuario Usuario;
+        public static Terrario Terrario;
 
         public App()
         {

@@ -32,15 +32,17 @@ namespace _3.Presentation._3.ViewModel
 
         public ICommand PerformSearch => new Command<string>(async (string query) =>
         {
+            this.Usuarios = new ObservableCollection<Usuario>();
+
+            if(string.IsNullOrEmpty(query) || string.IsNullOrWhiteSpace(query))
+            {
+                return;
+            }
+
             List<Usuario> result = await Herramientas.Search(query);
 
             if (result.Count > 0)
             {
-                if(Usuarios.Count> 0)
-                {
-                    Usuarios.Clear();
-                }
-
                 foreach(Usuario u in result)
                 {
                     Usuarios.Add(u);

@@ -1,4 +1,5 @@
 using _2.BusinessLogic;
+using _3.Presentation._2.View;
 using _3.Presentation._3.ViewModel;
 using _4.Entities;
 using System.Collections.ObjectModel;
@@ -9,22 +10,22 @@ namespace _3.Presentation;
 public partial class DashboardPage : ContentPage
 {
 	private readonly Usuario _usuario;
-    private DashboardViewModel ViewModel { get; set; }
 
     public DashboardPage()
 	{
 		InitializeComponent();
 
         _usuario = App.Usuario;
-        this.ViewModel = new DashboardViewModel();
-        this.BindingContext = this.ViewModel;
         CargarTerrariosAsync();
     }
 
 	private async void CargarTerrariosAsync()
 	{
-        this.ViewModel.Terrarios = this.ViewModel.Terrarios ?? new ObservableCollection<Terrario>();
-        this.ViewModel.Terrarios.Clear();
+        TerrariosViewModel viewModel = new TerrariosViewModel();
+        this.BindingContext = viewModel;
+
+        viewModel.Terrarios = viewModel.Terrarios ?? new ObservableCollection<Terrario>();
+        viewModel.Terrarios.Clear();
 
         List<Terrario> terrarios = await Herramientas.GetTerrariosUsuario(_usuario.Id);
 
@@ -32,8 +33,14 @@ public partial class DashboardPage : ContentPage
         {
             foreach (Terrario t in terrarios)
             {
-                this.ViewModel.Terrarios.Add(t);
+                viewModel.Terrarios.Add(t);
             };
         };
+    }
+
+    private void LvTerrarios_ItemTapped(object sender, ItemTappedEventArgs e)
+    {
+        Terrario selectedTerra = e.Item as Terrario;
+        Navigation.PushAsync(new TerrarioPageView(selectedTerra));
     }
 }

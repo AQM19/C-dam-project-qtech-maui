@@ -8,14 +8,14 @@ namespace _3.Presentation;
 public partial class NotificacionPage : ContentPage
 {
     private readonly Usuario _usuario;
-    private NotificationViewModel ViewModel { get; set; }
+    private NotificacionesViewModel ViewModel { get; set; }
 
     public NotificacionPage()
 	{
 		InitializeComponent();
 
         _usuario = App.Usuario;
-        this.ViewModel = new NotificationViewModel();
+        this.ViewModel = new NotificacionesViewModel();
         this.BindingContext = ViewModel;
         CargarNotificaciones();
     }

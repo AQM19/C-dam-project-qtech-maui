@@ -6,11 +6,11 @@
     
     <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Center">
 
-        <ListView x:Name="LvTerrarios" ItemsSource="{Binding Terrarios}" SelectionMode="Single" HasUnevenRows="True">
+        <ListView x:Name="LvTerrarios" ItemsSource="{Binding Terrarios}" SelectionMode="Single" HasUnevenRows="True" ItemTapped="LvTerrarios_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="8">
+                        <Grid Padding="8" ColumnSpacing="20">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
@@ -22,7 +22,7 @@
                             <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="0">
                                 <Label Text="{Binding Nombre}"/>
                                 <Label Text="{Binding Descripcion}"/>
-                                <Label Text="{Binding FechaCreacion}"/>
+                                <Label Text="{Binding FechaCreacion, StringFormat='{0:dd/MM/yyyy}'}"/>
                             </StackLayout>
                         </Grid>
                     </ViewCell>

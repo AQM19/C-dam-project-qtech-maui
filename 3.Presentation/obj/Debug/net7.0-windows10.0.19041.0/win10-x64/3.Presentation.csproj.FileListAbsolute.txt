@@ -355,3 +355,11 @@ C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.IO.Hashing.dll
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.Memory.Data.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\linq2db.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Toolkit.Mvvm.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\anadir.scale-100.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cerrar.scale-100.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\disquete.scale-100.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\menos.scale-100.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\observacion.scale-100.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\portapapeles.scale-100.png

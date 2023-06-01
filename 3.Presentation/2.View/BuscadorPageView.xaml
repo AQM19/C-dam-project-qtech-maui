@@ -8,7 +8,7 @@
 
         <SearchBar Placeholder="Buscar usuarios" x:Name="searchBar" SearchCommand="{Binding PerformSearch}" TextChanged="PerformSearchCommand"/>
 
-        <ListView x:Name="LvUsuarios" ItemsSource="{Binding Usuarios}" SelectionMode="Single" HasUnevenRows="True">
+        <ListView x:Name="LvUsuarios" ItemsSource="{Binding Usuarios}" SelectionMode="Single" HasUnevenRows="True" ItemTapped="LvUsuarios_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -20,8 +20,8 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
-                            <Image Source="{Binding FotoPerfil}" Grid.Column="0" Grid.Row="0" WidthRequest="100" Margin="0,5"/>
-                            <Label Text="{Binding NombreUsuario}" Grid.Column="1" Grid.Row="0"/>
+                            <Image Source="{Binding FotoPerfil}" Grid.Column="0" Grid.Row="0" WidthRequest="100" HeightRequest="100" Margin="0,5"/>
+                            <Label Text="{Binding NombreUsuario}" Grid.Column="1" Grid.Row="0" VerticalTextAlignment="Center" FontAttributes="Bold" Margin="30,0"/>
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

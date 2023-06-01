@@ -282,3 +282,11 @@ C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Hashing.dll
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Memory.Data.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\linq2db.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Toolkit.Mvvm.dll
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\anadir.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\cerrar.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\disquete.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\menos.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\observacion.png
+C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\portapapeles.png

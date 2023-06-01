@@ -4,19 +4,19 @@
              x:Class="_3.Presentation.NotificacionPage"
              Title="NotificacionPage">
 
-    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Center" Spacing="25" Padding="30">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Fill" Spacing="25" Padding="5">
         <ListView x:Name="LvNotificaciones" ItemsSource="{Binding Notificaciones}" SelectionMode="Single" HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid>
+                        <Grid ColumnSpacing="25">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1*"/>
                                 <ColumnDefinition Width="1*"/>
                             </Grid.ColumnDefinitions>
 
                             <Label Text="{Binding Texto}" Grid.Column="0"/>
-                            <Label Text="{Binding Fecha, StringFormat='dd/MM/yyyy'}" Grid.Column="1"/>
+                            <Label Text="{Binding Fecha, StringFormat='{0:dd/MM/yyyy}'}" Grid.Column="1"/>
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

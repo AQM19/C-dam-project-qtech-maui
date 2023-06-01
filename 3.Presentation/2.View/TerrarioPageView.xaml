@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_3.Presentation._2.View.TerrarioPageView"
+             Title="TerrarioPageView">
+    <VerticalStackLayout VerticalOptions="Fill" HorizontalOptions="Fill" Spacing="15">
+
+        <Grid Padding="10" ColumnSpacing="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Image Source="{Binding Foto}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"/>
+            <Label Text="{Binding Nombre}" FontAutoScalingEnabled="False" FontSize="22" FontAttributes="Bold" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start"/>
+            <Label Text="{Binding Descripcion}" FontAutoScalingEnabled="True" FontSize="12" FontAttributes="None" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Start"/>
+        </Grid>
+
+        <Grid Padding="10" ColumnSpacing="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Entry Placeholder="Tamaño" Text="{Binding Tamano}"  Grid.Column="0" Grid.Row="0"/>
+            <HorizontalStackLayout Grid.Column="1" Grid.Row="0">
+                <CheckBox IsChecked="{Binding Privado}" x:Name="Checkbox_Private" CheckedChanged="Checkbox_Private_CheckedChanged" />
+                <Label Text="Privado" VerticalTextAlignment="Center"/>
+            </HorizontalStackLayout>
+
+            <Entry Placeholder="Sustrato" Text="{Binding Sustrato}" Grid.Column="0" Grid.Row="1"/>
+            <Entry Placeholder="Ecosistema" Text="{Binding Ecosistema}" Grid.Column="1" Grid.Row="1"/>
+
+            <Entry Placeholder="Contraseña" IsPassword="True" Grid.Column="0" Grid.Row="2" x:Name="Contra" IsVisible="False"/>
+            <Entry Placeholder="Repetir contraseña" IsPassword="True" Grid.Column="1" Grid.Row="2" x:Name="RepContra" IsVisible="False"/>
+
+        </Grid>
+
+        <HorizontalStackLayout Spacing="25" HorizontalOptions="Center">
+            <Button ImageSource="anadir.png" x:Name="AddEspecie" Clicked="AddEspecie_Clicked" Background="#BDECB6"/>
+            <Button ImageSource="menos.png" x:Name="DelEspecie" Clicked="DelEspecie_Clicked" Background="#FF6961"/>
+        </HorizontalStackLayout>
+        
+        <ListView x:Name="LvEspecies" ItemsSource="{Binding Especies}" SelectionMode="Single" HasUnevenRows="True" Margin="15" HeightRequest="250">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="8" ColumnSpacing="20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Source="{Binding Imagen}" Grid.Column="0" Grid.Row="0" WidthRequest="100" Margin="0,5"/>
+                            <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="0" Spacing="5" VerticalOptions="Center">
+                                <Label Text="{Binding Genero}" FontAttributes="Bold"/>
+                                <Label Text="{Binding Sp}" FontAttributes="Bold"/>
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <HorizontalStackLayout Spacing="25" HorizontalOptions="End" VerticalOptions="End" Margin="50,0">
+            <Button ImageSource="disquete.png"  Background="#BDECB6" x:Name="Save" Clicked="Save_Clicked"/>
+            <Button ImageSource="cerrar.png"  Background="#FF6961" x:Name="Cancel" Clicked="Cancel_Clicked"/>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

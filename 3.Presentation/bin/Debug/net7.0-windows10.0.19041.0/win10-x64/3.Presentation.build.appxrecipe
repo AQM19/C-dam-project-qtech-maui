@@ -622,6 +622,9 @@
     <AppxPackagedFile Include="C:\Users\aaron\.nuget\packages\azure.storage.common\12.15.0\lib\net6.0\Azure.Storage.Common.dll">
       <PackagePath>Azure.Storage.Common.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aaron\.nuget\packages\linq2db\5.2.1\lib\net6.0\linq2db.dll">
+      <PackagePath>linq2db.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
     </AppxPackagedFile>
@@ -678,6 +681,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\7.0.81\lib\net7.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aaron\.nuget\packages\microsoft.toolkit.mvvm\7.1.2\lib\net5.0\Microsoft.Toolkit.Mvvm.dll">
+      <PackagePath>Microsoft.Toolkit.Mvvm.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
@@ -771,6 +777,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\anadir.scale-100.png">
+      <PackagePath>anadir.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
@@ -922,6 +931,12 @@
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\casa.scale-100.png">
       <PackagePath>casa.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\cerrar.scale-100.png">
+      <PackagePath>cerrar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\disquete.scale-100.png">
+      <PackagePath>disquete.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -963,6 +978,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\main_icon.scale-100.png">
       <PackagePath>main_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\menos.scale-100.png">
+      <PackagePath>menos.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\observacion.scale-100.png">
+      <PackagePath>observacion.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\portapapeles.scale-100.png">
+      <PackagePath>portapapeles.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\usuario.scale-100.png">
       <PackagePath>usuario.scale-100.png</PackagePath>

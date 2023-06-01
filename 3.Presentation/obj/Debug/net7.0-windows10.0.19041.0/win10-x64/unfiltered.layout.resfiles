@@ -1,5 +1,6 @@
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
+anadir.scale-100.png
 app_background.scale-100.jpeg
 appicon.ico
 appiconLargeTile.scale-100.png
@@ -50,6 +51,8 @@ appiconWideTile.scale-400.png
 campana_off.scale-100.png
 campana_on.scale-100.png
 casa.scale-100.png
+cerrar.scale-100.png
+disquete.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
@@ -64,6 +67,9 @@ logo_qtech.scale-400.png
 logo_qtech_full.scale-100.png
 lupa.scale-100.png
 main_icon.scale-100.png
+menos.scale-100.png
+observacion.scale-100.png
+portapapeles.scale-100.png
 usuario.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
