@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_3.Presentation.View.AddTareaPageView"
+             Title="AddTareaPageView">
+    <VerticalStackLayout VerticalOptions="Center" Spacing="25" Padding="30">
+
+        <Entry x:Name="Titulo" Placeholder="Titulo" Keyboard="Text" Text="{Binding Titulo}"/>
+        <Entry x:Name="Descripcion" Placeholder="Descripcion" Keyboard="Plain" Text="{Binding Descripcion}"/>
+        <Picker x:Name="Estado" SelectedItem="{Binding Estado}">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Iniciada</x:String>
+                    <x:String>En progreso</x:String>
+                    <x:String>Realizada</x:String>
+                    <x:String>Cancelada</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Grid ColumnSpacing="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button HorizontalOptions="End" ImageSource="anadir.png" Background="#BDECB6" Grid.Column="0" x:Name="AddTarea" Clicked="AddTarea_Clicked"/>
+            <Button HorizontalOptions="Start" ImageSource="cerrar.png" Background="#FF6961" Grid.Column="1" x:Name="Cancel" Clicked="Cancel_Clicked"/>
+        </Grid>
+
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -49,7 +49,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="3.ViewModel\DashboardViewModel.cs" />
+	  <AndroidResource Remove="1.Model\**" />
+	  <Compile Remove="1.Model\**" />
+	  <EmbeddedResource Remove="1.Model\**" />
+	  <MauiCss Remove="1.Model\**" />
+	  <MauiXaml Remove="1.Model\**" />
+	  <None Remove="1.Model\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="ViewModel\DashboardViewModel.cs" />
 	  <Compile Remove="DashboardPage.cs" />
 	  <Compile Remove="MainPage.xaml.cs" />
 	</ItemGroup>
@@ -86,31 +95,40 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="2.View\BuscadorPageView.xaml">
+	  <MauiXaml Update="View\AddTareaPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="2.View\DashboardPageView.xaml">
+	  <MauiXaml Update="View\BuscadorPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="2.View\EspeciesPageView.xaml">
+	  <MauiXaml Update="View\DashboardPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="2.View\TerrarioPageView.xaml">
+	  <MauiXaml Update="View\EspeciesPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="2.View\UserTerrarioPageView.xaml">
+	  <MauiXaml Update="View\ObservacionesPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="2.View\UsuarioPageView.xaml">
+	  <MauiXaml Update="View\TareasPageView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\TerrarioPageView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\UserTerrarioPageView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\UsuarioPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="LoginPre\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="2.View\NotificacionPageView.xaml">
+	  <MauiXaml Update="View\NotificacionPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="2.View\PerfilPageView.xaml">
+	  <MauiXaml Update="View\PerfilPageView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="LoginPre\RegisterPage.xaml">
@@ -119,20 +137,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="1.Model\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Update="2.View\BuscadorPageView.xaml.cs">
+	  <Compile Update="View\BuscadorPageView.xaml.cs">
 	    <DependentUpon>BuscadorPageView.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="2.View\DashboardPageView.xaml.cs">
+	  <Compile Update="View\DashboardPageView.xaml.cs">
 	    <DependentUpon>DashboardPageView.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="2.View\NotificacionPageView.xaml.cs">
+	  <Compile Update="View\NotificacionPageView.xaml.cs">
 	    <DependentUpon>NotificacionPageView.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="2.View\PerfilPageView.xaml.cs">
+	  <Compile Update="View\PerfilPageView.xaml.cs">
 	    <DependentUpon>PerfilPageView.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>

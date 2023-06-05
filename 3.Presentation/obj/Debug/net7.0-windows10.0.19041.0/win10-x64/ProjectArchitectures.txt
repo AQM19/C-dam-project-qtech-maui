@@ -1,6 +1,0 @@
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\1.DataAccess\1.DataAccess.csproj;neutral
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\1.DataAccess\1.DataAccess.csproj;neutral
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\2.BusinessLogic\2.BusinessLogic.csproj;neutral
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\3.Presentation.csproj;x64
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\4.Entities.csproj;neutral
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\4.Entities\4.Entities.csproj;neutral

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_3.Presentation.NotificacionPage"
+             Title="NotificacionPage">
+
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Center" Spacing="15" Padding="15">
+
+        <Border StrokeThickness="2" StrokeShape="RoundRectangle 25" Stroke="LightGray">
+            <ListView x:Name="LvNotificaciones" ItemsSource="{Binding Notificaciones}" SelectionMode="Single" HasUnevenRows="True" HeightRequest="650" ItemTapped="LvNotificaciones_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid ColumnSpacing="25" Padding="8">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Texto}" Grid.Column="0"/>
+                                <Label Text="{Binding Fecha, StringFormat='{0:dd/MM/yyyy}'}" Grid.Column="1"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Border>
+
+    </VerticalStackLayout>
+</ContentPage>

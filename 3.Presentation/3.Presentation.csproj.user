@@ -11,16 +11,25 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="2.View\EspeciesPageView.xaml">
+    <MauiXaml Update="View\AddTareaPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="2.View\TerrarioPageView.xaml">
+    <MauiXaml Update="View\EspeciesPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="2.View\UserTerrarioPageView.xaml">
+    <MauiXaml Update="View\ObservacionesPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="2.View\UsuarioPageView.xaml">
+    <MauiXaml Update="View\TareasPageView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\TerrarioPageView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\UserTerrarioPageView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\UsuarioPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="App.xaml">
@@ -29,19 +38,19 @@
     <MauiXaml Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="2.View\BuscadorPageView.xaml">
+    <MauiXaml Update="View\BuscadorPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="2.View\DashboardPageView.xaml">
+    <MauiXaml Update="View\DashboardPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="LoginPre\LoginPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="2.View\NotificacionPageView.xaml">
+    <MauiXaml Update="View\NotificacionPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="2.View\PerfilPageView.xaml">
+    <MauiXaml Update="View\PerfilPageView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">

@@ -63,7 +63,6 @@ public partial class LoginPage : ContentPage
             PasswordEntry.IsEnabled = true;
 
             App.Usuario = usuario;
-
             await Shell.Current.GoToAsync($"//{nameof(DashboardPage)}");
         }
 

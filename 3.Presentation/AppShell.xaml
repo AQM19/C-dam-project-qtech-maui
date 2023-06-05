@@ -31,6 +31,7 @@
             Icon="lupa.png"/>
 
         <ShellContent 
+            x:Name="Notifications"
             Title="Notificaciones" 
             ContentTemplate="{DataTemplate local:NotificacionPage}"
             Route="NotificacionPage"

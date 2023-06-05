@@ -1,4 +1,5 @@
-﻿using _4.Entities;
+﻿using _2.BusinessLogic;
+using _4.Entities;
 using Microsoft.Extensions.Configuration;
 
 namespace _3.Presentation
@@ -13,7 +14,6 @@ namespace _3.Presentation
         public App()
         {
             InitializeComponent();
-
             MainPage = new AppShell();
         }
     }

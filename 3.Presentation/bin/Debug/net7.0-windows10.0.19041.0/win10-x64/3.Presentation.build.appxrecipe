@@ -937,39 +937,6 @@
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\disquete.scale-100.png">
       <PackagePath>disquete.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-100.gif">
-      <PackagePath>loading.scale-100.gif</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_qtech.scale-100.png">
-      <PackagePath>logo_qtech.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_qtech.scale-125.png">
-      <PackagePath>logo_qtech.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_qtech.scale-150.png">
-      <PackagePath>logo_qtech.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_qtech.scale-200.png">
-      <PackagePath>logo_qtech.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_qtech.scale-400.png">
-      <PackagePath>logo_qtech.scale-400.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_qtech_full.scale-100.png">
       <PackagePath>logo_qtech_full.scale-100.png</PackagePath>
     </AppxPackagedFile>

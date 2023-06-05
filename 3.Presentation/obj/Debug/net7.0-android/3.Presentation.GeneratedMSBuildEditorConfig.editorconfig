@@ -14,54 +14,6 @@ build_property.IncludeAllContentForSelfExtract =
 build_property.RootNamespace = _3.Presentation
 build_property.ProjectDir = C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\
 
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/BuscadorPageView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.BuscadorPageView.xaml
-build_metadata.AdditionalFiles.TargetPath = 2.View\BuscadorPageView.xaml
-build_metadata.AdditionalFiles.RelativePath = 2.View\BuscadorPageView.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/DashboardPageView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.DashboardPageView.xaml
-build_metadata.AdditionalFiles.TargetPath = 2.View\DashboardPageView.xaml
-build_metadata.AdditionalFiles.RelativePath = 2.View\DashboardPageView.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/EspeciesPageView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.EspeciesPageView.xaml
-build_metadata.AdditionalFiles.TargetPath = 2.View\EspeciesPageView.xaml
-build_metadata.AdditionalFiles.RelativePath = 2.View\EspeciesPageView.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/NotificacionPageView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.NotificacionPageView.xaml
-build_metadata.AdditionalFiles.TargetPath = 2.View\NotificacionPageView.xaml
-build_metadata.AdditionalFiles.RelativePath = 2.View\NotificacionPageView.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/PerfilPageView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.PerfilPageView.xaml
-build_metadata.AdditionalFiles.TargetPath = 2.View\PerfilPageView.xaml
-build_metadata.AdditionalFiles.RelativePath = 2.View\PerfilPageView.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/TerrarioPageView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.TerrarioPageView.xaml
-build_metadata.AdditionalFiles.TargetPath = 2.View\TerrarioPageView.xaml
-build_metadata.AdditionalFiles.RelativePath = 2.View\TerrarioPageView.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/UserTerrarioPageView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.UserTerrarioPageView.xaml
-build_metadata.AdditionalFiles.TargetPath = 2.View\UserTerrarioPageView.xaml
-build_metadata.AdditionalFiles.RelativePath = 2.View\UserTerrarioPageView.xaml
-
-[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/2.View/UsuarioPageView.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation._2.View.UsuarioPageView.xaml
-build_metadata.AdditionalFiles.TargetPath = 2.View\UsuarioPageView.xaml
-build_metadata.AdditionalFiles.RelativePath = 2.View\UsuarioPageView.xaml
-
 [C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.App.xaml
@@ -97,3 +49,75 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/AddTareaPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.AddTareaPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddTareaPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddTareaPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/BuscadorPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.BuscadorPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\BuscadorPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\BuscadorPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/DashboardPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.DashboardPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\DashboardPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\DashboardPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/EspeciesPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.EspeciesPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\EspeciesPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\EspeciesPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/LecturasTerrarioPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.LecturasTerrarioPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LecturasTerrarioPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LecturasTerrarioPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/NotificacionPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.NotificacionPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\NotificacionPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\NotificacionPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/ObservacionesPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.ObservacionesPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ObservacionesPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ObservacionesPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/PerfilPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.PerfilPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\PerfilPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\PerfilPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/TareasPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.TareasPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TareasPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TareasPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/TerrarioPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.TerrarioPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TerrarioPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TerrarioPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/UserTerrarioPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.UserTerrarioPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\UserTerrarioPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\UserTerrarioPageView.xaml
+
+[C:/Users/aaron/OneDrive/Escritorio/PROJECTS/QTECH_MAUI/3.Presentation/View/UsuarioPageView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = _3.Presentation.View.UsuarioPageView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\UsuarioPageView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\UsuarioPageView.xaml

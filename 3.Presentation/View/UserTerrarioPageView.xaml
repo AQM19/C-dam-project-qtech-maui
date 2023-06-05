@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_3.Presentation._2.View.UserTerrarioPageView"
+             Title="UserTerrarioPageView">
+    <ScrollView>
+        <VerticalStackLayout Padding="15" Spacing="15">
+
+            <Grid Padding="10" ColumnSpacing="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Image Source="{Binding Foto}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"/>
+                <Label Text="{Binding Nombre}" FontAutoScalingEnabled="False" FontSize="22" FontAttributes="Bold" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Start"/>
+
+                <Label Text="{Binding FechaCreacion,StringFormat='{0:dd/MM/yyyy}'}" Grid.Column="1" Grid.Row="1"/>
+                <Label Text="{Binding Ecosistema}" Grid.Column="2" Grid.Row="1"/>
+
+                <Label Text="{Binding Tamano}" Grid.Column="1" Grid.Row="2"/>
+                <Label Text="{Binding Sustrato}" Grid.Column="2" Grid.Row="2"/>
+            </Grid>
+
+            <Label Text="{Binding Descripcion}" FontAutoScalingEnabled="True" FontSize="12" FontAttributes="None" HorizontalTextAlignment="Start" Padding="15,0"/>
+
+            <Border StrokeThickness="2" StrokeShape="RoundRectangle 25" Stroke="LightGray" Margin="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label HorizontalOptions="Center" Text="Especies" FontAttributes="Bold" Padding="5"/>
+                    <ListView x:Name="LvEspecies" ItemsSource="{Binding Especies}" SelectionMode="None" HasUnevenRows="True" Margin="15" HeightRequest="250">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid Padding="8" ColumnSpacing="20">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <HorizontalStackLayout Spacing="15">
+                                            <Image Source="{Binding Imagen}" Grid.Column="0" Grid.Row="0" WidthRequest="100" Margin="0,5"/>
+                                            <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="0" Spacing="5" VerticalOptions="Center">
+                                                <Label Text="{Binding Genero}" FontAttributes="Bold"/>
+                                                <Label Text="{Binding Sp}" FontAttributes="Bold"/>
+                                            </StackLayout>
+                                        </HorizontalStackLayout>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </VerticalStackLayout>
+            </Border>
+
+            <VerticalStackLayout>
+                <Label Text="Temperatura"/>
+                <ProgressBar Progress="0" Grid.Column="1" Grid.Row="0" ProgressColor="red" x:Name="ProgressBarTemperature"/>
+                <Label Text="Humedad"/>
+                <ProgressBar Progress="0" Grid.Column="1" Grid.Row="1" ProgressColor="Turquoise" x:Name="ProgressBarHumedad"/>
+                <Label Text="Iluminación"/>
+                <ProgressBar Progress="0" Grid.Column="1" Grid.Row="2" ProgressColor="Yellow" x:Name="ProgressBarLuz"/>
+            </VerticalStackLayout>
+
+            <Border StrokeThickness="2" StrokeShape="RoundRectangle 25" Stroke="LightGray" Margin="15">
+                <VerticalStackLayout Spacing="5">
+                    <Label HorizontalOptions="Center" Text="Visitas" FontAttributes="Bold" Padding="5"/>
+
+                    <ListView x:Name="LvVisitas" ItemsSource="{Binding Visitas}" SelectionMode="None" HasUnevenRows="True" Margin="15" HeightRequest="250">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid Padding="8" ColumnSpacing="20">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+
+                                        <Label Text="{Binding Comentario}" Grid.Row="0"/>
+                                        <Label Text="{Binding Fecha, StringFormat='{0:dd/MM/yyyy}'}" Grid.Row="1"/>
+
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                    <Button HorizontalOptions="Fill" ImageSource="anadir.png" Margin="10" Background="#BDECB6" Clicked="Button_Clicked"/>
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_3.Presentation._2.View.ObservacionesPageView"
+             Title="ObservacionesPageView">
+    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Center" Spacing="20" Padding="10">
+
+        <Border StrokeThickness="2" StrokeShape="RoundRectangle 25" Stroke="LightGray" Margin="15">
+            <ListView x:Name="LvObservaciones" ItemsSource="{Binding Observaciones}" SelectionMode="Single" HasUnevenRows="True" HeightRequest="550" ItemTapped="LvObservaciones_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="8" ColumnSpacing="15">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="{Binding Texto}" Grid.Column="0" Grid.Row="0"/>
+                                <Label Text="{Binding Fecha, StringFormat='{0:dd/MM/yyyy}'}" Grid.Column="1" Grid.Row="0"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Border>
+
+        <Button HorizontalOptions="Fill" VerticalOptions="Start" ImageSource="anadir.png" Background="#BDECB6" x:Name="AddObservacion" Clicked="AddObservacion_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>

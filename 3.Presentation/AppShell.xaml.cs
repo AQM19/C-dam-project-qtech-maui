@@ -1,4 +1,5 @@
-﻿using _4.Entities;
+﻿using _2.BusinessLogic;
+using _4.Entities;
 
 namespace _3.Presentation
 {
@@ -10,6 +11,16 @@ namespace _3.Presentation
 
             Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
             Routing.RegisterRoute(nameof(RegisterPage), typeof(RegisterPage));
+            
+            NotificationPollingComponent.PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName == nameof(NotificationPollingComponent.PendingNotifications))
+                {
+                    Notifications.Icon = NotificationPollingComponent.PendingNotifications ? "campana_on.png" : "campana_off.png";
+                }
+            };
         }
+
+        
     }
 }

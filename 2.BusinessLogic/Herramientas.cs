@@ -253,7 +253,7 @@ namespace _2.BusinessLogic
         public static async Task UpdateObservacion(long id, Observacion observacion)
         {
             QConsumer qc = new QConsumer();
-            await qc.UpdateAsync<Observacion>($"{baseEndPoint}/observacions/{id}", observacion);
+            await qc.UpdateAsync<Observacion>($"{baseEndPoint}/observaciones/{id}", observacion);
         }
         public static async Task CreateObservacion(Observacion observacion)
         {
@@ -289,6 +289,13 @@ namespace _2.BusinessLogic
             QConsumer qc = new QConsumer();
             Lectura lectura = await qc.GetAsync<Lectura>($"{baseEndPoint}/lecturas/terrario/{id}");
             return lectura;
+        }
+
+        public static async Task<List<Lectura>> GetLecturasTerrario(long id)
+        {
+            QConsumer qc = new QConsumer();
+            List<Lectura> lecturas = await qc.GetAsync<List<Lectura>>($"{baseEndPoint}/lecturas/terrario/lista/{id}");
+            return lecturas;
         }
         #endregion
     }
