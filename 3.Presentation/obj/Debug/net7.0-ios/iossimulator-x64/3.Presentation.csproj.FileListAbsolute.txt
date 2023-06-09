@@ -53,6 +53,3 @@ C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-ios\iossimulator-x64\3.Presentation.AssemblyInfoInputs.cache
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-ios\iossimulator-x64\3.Presentation.AssemblyInfo.cs
 C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-ios\iossimulator-x64\3.Presentation.csproj.CoreCompileInputs.cache
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-ios\iossimulator-x64\3.Presentation.dll
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-ios\iossimulator-x64\refint\3.Presentation.dll
-C:\Users\aaron\OneDrive\Escritorio\PROJECTS\QTECH_MAUI\3.Presentation\obj\Debug\net7.0-ios\iossimulator-x64\3.Presentation.pdb

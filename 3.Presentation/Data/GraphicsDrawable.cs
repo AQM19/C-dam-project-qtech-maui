@@ -25,18 +25,20 @@ namespace _3.Presentation.Data
             DateTime minX = Lecturas.Min(l => l.Fecha);
             float maxY = 100;
             float minY = 0;
+            float yMin = dirtyRect.Top;
+            float yMax = dirtyRect.Bottom;
 
             for (int i = 0; i < Lecturas.Count - 1; i++)
             {
                 float x1 = (float)((Lecturas[i].Fecha - minX).TotalMilliseconds / (maxX - minX).TotalMilliseconds * dirtyRect.Width);
-                float y1Temp = (float)((1 - (Lecturas[i].Temperatura - minY) / (maxY - minY)) * dirtyRect.Height);
-                float y1Hum = (float)((1 - (Lecturas[i].Humedad - minY) / (maxY - minY)) * dirtyRect.Height);
-                float y1Luz = (float)((1 - (Lecturas[i].Luz - minY) / (maxY - minY)) * dirtyRect.Height);
+                float y1Temp = (float)(yMax - (Lecturas[i].Temperatura - minY) / (maxY - minY) * (yMax - yMin));
+                float y1Hum = (float)(yMax - (Lecturas[i].Humedad - minY) / (maxY - minY) * (yMax - yMin));
+                float y1Luz = (float)(yMax - (Lecturas[i].Luz - minY) / (maxY - minY) * (yMax - yMin));
 
                 float x2 = (float)((Lecturas[i + 1].Fecha - minX).TotalMilliseconds / (maxX - minX).TotalMilliseconds * dirtyRect.Width);
-                float y2Temp = Lecturas[i].Temperatura;
-                float y2Hum = Lecturas[i].Humedad;
-                float y2Luz = Lecturas[i].Luz;
+                float y2Temp = (float)(yMax - (Lecturas[i + 1].Temperatura - minY) / (maxY - minY) * (yMax - yMin));
+                float y2Hum = (float)(yMax - (Lecturas[i + 1].Humedad - minY) / (maxY - minY) * (yMax - yMin));
+                float y2Luz = (float)(yMax - (Lecturas[i + 1].Luz - minY) / (maxY - minY) * (yMax - yMin));
 
                 canvas.StrokeColor = Colors.Red;
                 canvas.StrokeSize = 1;

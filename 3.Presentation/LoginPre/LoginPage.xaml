@@ -4,8 +4,8 @@
              xmlns:media="clr-namespace:Microsoft.Maui.Controls.Compatibility;assembly=Microsoft.Maui.Controls.Compatibility"
              xmlns:controls="clr-namespace:Microsoft.Maui.Controls;assembly=Microsoft.Maui.Controls"
              x:Class="_3.Presentation.LoginPage"
-             Title="LoginPage"
-             BackgroundImageSource="app_background.jpeg">
+             BackgroundImageSource="app_background.jpeg"
+             Shell.NavBarIsVisible="False">
 
     <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="25" Padding="30.0" WidthRequest="400">
 

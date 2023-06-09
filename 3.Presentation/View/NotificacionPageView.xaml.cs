@@ -17,6 +17,8 @@ public partial class NotificacionPage : ContentPage
         _usuario = App.Usuario;
         this.ViewModel = new NotificacionesViewModel();
         this.BindingContext = ViewModel;
+        this.ViewModel.Notificaciones = this.ViewModel.Notificaciones ?? new ObservableCollection<Notificacion>();
+
 
         NotificationPollingComponent.PropertyChanged += (sender, e) =>
         {
@@ -36,7 +38,6 @@ public partial class NotificacionPage : ContentPage
 
     private async void CargarNotificaciones()
     {
-        this.ViewModel.Notificaciones = this.ViewModel.Notificaciones ?? new ObservableCollection<Notificacion>();
         this.ViewModel.Notificaciones.Clear();
 
         List<Notificacion> notificacions = await Herramientas.GetNotificacionesByUserId(_usuario.Id);

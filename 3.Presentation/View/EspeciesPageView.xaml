@@ -2,9 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="_3.Presentation._2.View.EspeciesPageView"
-             Title="EspeciesPageView">
+             Shell.NavBarIsVisible="True">
     <VerticalStackLayout VerticalOptions="Fill" HorizontalOptions="Fill">
-        <ListView x:Name="LvEspecies" ItemsSource="{Binding Especies}" SelectionMode="Single" HasUnevenRows="True" Margin="15" ItemTapped="LvEspecies_ItemTapped">
+        <ListView x:Name="LvEspecies" ItemsSource="{Binding Especies}" SelectionMode="Single" HasUnevenRows="True" ItemTapped="LvEspecies_ItemTapped" HeightRequest="680">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

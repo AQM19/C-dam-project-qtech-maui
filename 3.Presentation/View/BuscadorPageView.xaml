@@ -2,32 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="_3.Presentation.BuscadorPage"
-             Title="BuscadorPage">
-    
-    <VerticalStackLayout>
+             Shell.NavBarIsVisible="True">
+
+    <VerticalStackLayout Spacing="10" Padding="15">
 
         <SearchBar Placeholder="Buscar usuarios" x:Name="searchBar" SearchCommand="{Binding PerformSearch}" TextChanged="PerformSearchCommand"/>
 
-        <ListView x:Name="LvUsuarios" ItemsSource="{Binding Usuarios}" SelectionMode="Single" HasUnevenRows="True" ItemTapped="LvUsuarios_ItemTapped">
+        <ListView x:Name="LvUsuarios" ItemsSource="{Binding Usuarios}" SeparatorVisibility="None" SelectionMode="Single" HasUnevenRows="True" ItemTapped="LvUsuarios_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="8">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Image Source="{Binding FotoPerfil}" Grid.Column="0" Grid.Row="0" WidthRequest="100" HeightRequest="100" Margin="0,5"/>
-                            <Label Text="{Binding NombreUsuario}" Grid.Column="1" Grid.Row="0" VerticalTextAlignment="Center" FontAttributes="Bold" Margin="30,0"/>
-                        </Grid>
+                        <Border StrokeShape="RoundRectangle 25">
+                            <Grid Padding="8">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding FotoPerfil}" Grid.Column="0" Grid.Row="0" WidthRequest="100" HeightRequest="100" Margin="0,5"/>
+                                <Label Text="{Binding NombreUsuario}" Grid.Column="1" Grid.Row="0" VerticalTextAlignment="Center" FontAttributes="Bold" Margin="30,0"/>
+                            </Grid>
+                        </Border>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
     </VerticalStackLayout>
-    
+
 </ContentPage>

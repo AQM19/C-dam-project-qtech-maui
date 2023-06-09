@@ -3,13 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:drawable="clr-namespace:_3.Presentation.Data"
              x:Class="_3.Presentation.View.LecturasTerrarioPageView"
-             Title="LecturasTerrarioPageView">
+             Shell.NavBarIsVisible="True">
     <ContentPage.Resources>
         <drawable:GraphicsDrawable x:Key="drawable"/>
+        <ResourceDictionary>
+            <Style x:Key="LabelGraph" TargetType="Label">
+                <Setter Property="Text" Value="xx/xx/xxxx"/>
+                <Setter Property="Rotation" Value="65"/>
+                <Setter Property="FontSize" Value="11"/>
+                <Setter Property="VerticalOptions" Value="End"/>
+                <Setter Property="IsVisible" Value="False"/>
+            </Style>
+        </ResourceDictionary>
     </ContentPage.Resources>
-    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="30" Spacing="30">
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="30">
 
-        <GraphicsView Drawable="{StaticResource drawable}" x:Name="graphView" HeightRequest="300" />
+        <Label Text="Histórico de lecturas del terrario" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,5"/>
+
+        <Grid BackgroundColor="GhostWhite">
+            <GraphicsView Drawable="{StaticResource drawable}" x:Name="graphView" HeightRequest="300" Margin="2"/>
+            <BoxView Color="LightGray" HeightRequest="2" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+            <BoxView Color="LightGray" WidthRequest="2" VerticalOptions="FillAndExpand" HorizontalOptions="Start"/>
+            <Label VerticalOptions="Start" HorizontalOptions="Start" Text="100" Margin="-25,-15"/>
+            <Label VerticalOptions="End" HorizontalOptions="Start" Text="0" Margin="-15,0" />
+
+            <Label Style="{StaticResource LabelGraph}" HorizontalOptions="Start" Margin="-10,-40" x:Name="LabGraphStart"/>
+            <Label Style="{StaticResource LabelGraph}" HorizontalOptions="End" Margin="-20,-40" x:Name="LabGraphEnd"/>
+        </Grid>
+
+        <Button Text="Exportar" Margin="0,100" ImageSource="datos.png" Background="#BDECB6" TextColor="Black" HorizontalOptions="Center" WidthRequest="150" BorderColor="Black" BorderWidth="1" Clicked="Button_Clicked"/>
 
     </VerticalStackLayout>
 </ContentPage>

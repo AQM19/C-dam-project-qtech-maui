@@ -2,29 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="_3.Presentation.NotificacionPage"
-             Title="NotificacionPage">
+             Shell.NavBarIsVisible="True">
 
-    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Center" Spacing="15" Padding="15">
+    <Grid Padding="15">
 
-        <Border StrokeThickness="2" StrokeShape="RoundRectangle 25" Stroke="LightGray">
-            <ListView x:Name="LvNotificaciones" ItemsSource="{Binding Notificaciones}" SelectionMode="Single" HasUnevenRows="True" HeightRequest="650" ItemTapped="LvNotificaciones_ItemTapped">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
+        <ListView x:Name="LvNotificaciones" HorizontalOptions="Center" VerticalOptions="Start" MaximumHeightRequest="650" 
+                  ItemsSource="{Binding Notificaciones}" SelectionMode="Single" HasUnevenRows="True" 
+                  ItemTapped="LvNotificaciones_ItemTapped" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Border StrokeShape="RoundRectangle 25">
+                            <Border.Shadow>
+                                <Shadow Brush="Black" Offset="0,5" Opacity="0.8"/>
+                            </Border.Shadow>
                             <Grid ColumnSpacing="25" Padding="8">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="1*"/>
-                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="220"/>
+                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
 
                                 <Label Text="{Binding Texto}" Grid.Column="0"/>
                                 <Label Text="{Binding Fecha, StringFormat='{0:dd/MM/yyyy}'}" Grid.Column="1"/>
                             </Grid>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </Border>
+                        </Border>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
-    </VerticalStackLayout>
+    </Grid>
 </ContentPage>

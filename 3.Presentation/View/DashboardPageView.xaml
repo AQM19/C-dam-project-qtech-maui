@@ -2,34 +2,40 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="_3.Presentation.DashboardPage"
-             Title="DashboardPage">
-    
-    <VerticalStackLayout VerticalOptions="Start" HorizontalOptions="Center">
+             Title="Lista de terrarios"
+             Shell.NavBarIsVisible="True">
+    <Grid Padding="15">
 
-        <ListView x:Name="LvTerrarios" ItemsSource="{Binding Terrarios}" SelectionMode="Single" HasUnevenRows="True" ItemTapped="LvTerrarios_ItemTapped">
+        <ListView x:Name="LvTerrarios" ItemsSource="{Binding Terrarios}" SelectionMode="Single" HasUnevenRows="True" ItemTapped="LvTerrarios_ItemTapped" MaximumHeightRequest="600" SeparatorVisibility="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="8" ColumnSpacing="20">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Image Source="{Binding Foto}" Grid.Column="0" Grid.Row="0" WidthRequest="100" Margin="0,5"/>
-                            <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="0">
-                                <Label Text="{Binding Nombre}"/>
-                                <Label Text="{Binding Descripcion}"/>
-                                <Label Text="{Binding FechaCreacion, StringFormat='{0:dd/MM/yyyy}'}"/>
-                            </StackLayout>
-                        </Grid>
+                        <Border StrokeShape="RoundRectangle 25">
+                            <Border.Shadow>
+                                <Shadow Brush="Black" Offset="0,5" Opacity="0.8"/>
+                            </Border.Shadow>
+                            <Grid Padding="8" ColumnSpacing="20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding Foto}" Grid.Column="0" Grid.Row="0" WidthRequest="100" Margin="0,5"/>
+                                <StackLayout Orientation="Vertical" Grid.Column="1" Grid.Row="0">
+                                    <Label Text="{Binding Nombre}"/>
+                                    <Label Text="{Binding Descripcion}"/>
+                                    <Label Text="{Binding FechaCreacion, StringFormat='{0:dd/MM/yyyy}'}"/>
+                                </StackLayout>
+                            </Grid>
+                        </Border>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-    </VerticalStackLayout>
-    
+        <Button HorizontalOptions="End" VerticalOptions="End" ImageSource="anadir.png" CornerRadius="25" Padding="10" Background="#BDECB6" BorderColor="#8ADE7D" BorderWidth="1" Clicked="Button_Clicked"/>
+    </Grid>
+
 </ContentPage>

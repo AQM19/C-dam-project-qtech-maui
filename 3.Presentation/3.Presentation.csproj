@@ -153,4 +153,20 @@
 
 	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutException3PresentationHideInfoBar="True" XamarinHotReloadUnhandledDeviceException3PresentationHideInfoBar="True" /></VisualStudio></ProjectExtensions>
 
+	<PropertyGroup Condition="$(TargetFramework.Contains('-android')) and '$(Configuration)' == 'Release'">
+		<AndroidKeyStore>True</AndroidKeyStore>
+		<AndroidSigningKeyStore>..\autoterra.keystore</AndroidSigningKeyStore>
+		<AndroidSigningStorePass>AqMr190216</AndroidSigningStorePass>
+		<AndroidSigningKeyAlias>autoterra</AndroidSigningKeyAlias>
+		<AndroidSigningKeyPass>AqMr190216</AndroidSigningKeyPass>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android|AnyCPU'">
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	  <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
+	  <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+	</PropertyGroup>
 </Project>

@@ -37,6 +37,12 @@ public partial class PerfilPage : ContentPage
     {
         Terrario selectedTerra = e.Item as Terrario;
 
-        Navigation.PushAsync(new TerrarioPageView(selectedTerra));
+        Navigation.PushAsync(new TerrarioPageView(selectedTerra, null,OnTerraDeleted ));
+    }
+
+    private async void OnTerraDeleted(Terrario terrario)
+    {
+        await Herramientas.DeleteTerrario(terrario.Id);
+        ObtenerTerrarios(App.Usuario.Id);
     }
 }

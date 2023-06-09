@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="_3.Presentation.View.AddTareaPageView"
-             Title="AddTareaPageView">
+             Shell.NavBarIsVisible="True">
+    
     <VerticalStackLayout VerticalOptions="Center" Spacing="25" Padding="30">
 
         <Entry x:Name="Titulo" Placeholder="Titulo" Keyboard="Text" Text="{Binding Titulo}"/>

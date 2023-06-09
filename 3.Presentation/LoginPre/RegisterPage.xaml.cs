@@ -83,7 +83,7 @@ public partial class RegisterPage : ContentPage
         if (!string.IsNullOrEmpty(_filename))
         {
             Uri blobUri = new Uri($"https://qtechstorage.blob.core.windows.net/{username}/profile_pic{Path.GetExtension(_filename)}");
-            StorageSharedKeyCredential storageCredentials = new StorageSharedKeyCredential("qtechstorage", App.Configuration["qtechstorage"]);
+            StorageSharedKeyCredential storageCredentials = new StorageSharedKeyCredential("qtechstorage", App.Configuration["Settings:qtechstorage"]);
             BlobClient blobClient = new BlobClient(blobUri, storageCredentials);
 
             FileStream fileStream = File.OpenRead(Path.GetFullPath(_filename));

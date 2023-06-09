@@ -25,6 +25,12 @@ public partial class DashboardPage : ContentPage
         await NotificationPollingComponent.StartPeriodicQuery(_usuario.Id);
     }
 
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        CargarTerrariosAsync();
+    }
+
     private async void CargarTerrariosAsync()
     {
         TerrariosViewModel viewModel = new TerrariosViewModel();
@@ -47,6 +53,26 @@ public partial class DashboardPage : ContentPage
     private async void LvTerrarios_ItemTapped(object sender, ItemTappedEventArgs e)
     {
         Terrario selectedTerra = e.Item as Terrario;
-        await Navigation.PushAsync(new TerrarioPageView(selectedTerra));
+        await Navigation.PushAsync(new TerrarioPageView(selectedTerra, null, OnTerraDeleted));
+        CargarTerrariosAsync();
+    }
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+        Terrario terrario = new Terrario();
+        await Navigation.PushAsync(new TerrarioPageView(terrario, OnTerraCreated, null));
+        CargarTerrariosAsync();
+    }
+
+    private async void OnTerraCreated(Terrario terrario)
+    {
+        await Herramientas.CreateTerrario(terrario);
+        CargarTerrariosAsync();
+    }
+
+    private async void OnTerraDeleted(Terrario terrario)
+    {
+        await Herramientas.DeleteTerrario(terrario.Id);
+        CargarTerrariosAsync();
     }
 }
